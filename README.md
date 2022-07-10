@@ -18,25 +18,25 @@ While the above analysis revealed discrepancies among rideshare revenue accordin
 ## Results
 Using the merged dataframe of the "city_data.csv" and "ride_data.csv" datasets, the following rideshare data was derived:
 
-Total Urban Rides: 1,625
-Total Suburban Rides: 625
-Total Rural Rides: 125
+* Total Urban Rides: 1,625
+* Total Suburban Rides: 625
+* Total Rural Rides: 125
 
-Total Urban Drivers: 2,405
-Total Suburban Drivers: 490
-Total Rural Drivers: 78
+* Total Urban Drivers: 2,405
+* Total Suburban Drivers: 490
+* Total Rural Drivers: 78
 
-Total Urban Fares: $39,854.38
-Total Suburban Fares: $19,356.33
-Total Rural Fares: $4,327.93 
+* Total Urban Fares: $39,854.38
+* Total Suburban Fares: $19,356.33
+* Total Rural Fares: $4,327.93 
 
-Average Fare Per Urban Ride: $24.53
-Average Fare Per Suburban Ride: $30.97
-Average Fare Per Rural Ride: $34.62
+* Average Fare Per Urban Ride: $24.53
+* Average Fare Per Suburban Ride: $30.97
+* Average Fare Per Rural Ride: $34.62
 
-Average Fare Per Urban Driver: $16.57
-Average Fare Per Suburban Driver: $39.50
-Average Fare Per Rural Driver: $55.49
+* Average Fare Per Urban Driver: $16.57
+* Average Fare Per Suburban Driver: $39.50
+* Average Fare Per Rural Driver: $55.49
 
 The data above is summarized in the following dataframe:
 <img width="625" alt="image" src="https://user-images.githubusercontent.com/104729703/178146456-9019c594-3f09-43ec-a750-a2a6f64888ca.png">
