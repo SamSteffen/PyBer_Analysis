@@ -1,20 +1,27 @@
 # PyBer_Analysis
-Create a visualization of data to improve access to ridesharing services and determine affordability for underserved areas, using Python, Pandas, Jupyter Notebooks, MatPlotLib.
 
-Finding from 5. 4. 1
-If we compare the average number of rides between each city type, we'll notice that the average number of rides in the rural cities is about 3.5 and 2.5 times lower than urban and suburban cities, respectively.
+## Overview
+To better understand ridesharing service accessibility for passengers in various city types (urban, suburban and rural) an analysis of two datasets ("city_data.csv" and "ride_data.csv") of 2019 rideshare data was performed using Python, Pandas, Jupyter Notebooks, and MatPlotLib.
 
-Finding from 5.4.4
-There is one outlier in the urban ride count data (West Angela has the highest rider count). Also, the average number of rides in the rural cities is about 4- and 3.5-times lower per city than the urban and suburban cities, respectively.
+An initial analysis of the merged datasets revealed the following:
+- Comparing the average number of rides between each city type, the average number of rides in the rural cities is about 3.5 and 2.5 times lower than urban and suburban cities, respectively.
+- There is one outlier in the urban ride count data (the city of West Angela has the highest rider count). 
+- The average number of rides in the rural cities is about 4- and 3.5-times lower per city than the urban and suburban cities, respectively.
 
-Finding from 5.4.4
-From the combined box-and-whisker plots, we see that there are no outliers. However, the average fare for rides in the rural cities is about $11 and $5 more per ride than the urban and suburban cities, respectively. Why do you think there is such a big difference? By looking at the number of riders for each city, can you get a sense of the overall revenue?
+![Fig3](https://user-images.githubusercontent.com/104729703/178143053-f56c640f-9353-4e27-93ce-7f2098a71ce5.png)
 
-Finding from 5.4.4
-The average number of drivers in rural cities is nine to four times less per city than in urban and suburban cities, respectively. By looking at the driver count data and fare data, can you get a sense of the overall revenue?
+- From the combined box-and-whisker plots of 2019 Ride Fare data (above), we see that there are no outliers. However, the average fare for rides in the rural cities is about $11 and $5 more per ride than the urban and suburban cities, respectively. 
+- The average number of drivers in rural cities is nine to four times less per city than in urban and suburban cities, respectively. 
 
-# Challenge_Background
-V. Isualize has given you and Omar a brand-new assignment. Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
+While the above analysis revealed discrepancies among rideshare revenue according to city type, to better understand the spending trends among rideshare users within different city types over time, further analysis was necessary. 
+
+## Results
+To visualize the spending trends among rideshare users within different city types (urban, suburban, rural) by week, a summary DataFrame of the ride-sharing data by city type was created that showed the total rideshare fares for each city type by week:
+
+<img width="154" alt="fares_summary_df" src="https://user-images.githubusercontent.com/104729703/178143317-0822110d-987b-4168-80ac-3d79ee08af21.png">
+
+From the above dataframe, a multiple-line graph was made using matplotlib to show the total weekly fares for each city type. 
+
 
 # Challenge_Instructions
 Use your repository README file to write your analysis of how to address any disparities in the ride-sharing data among the city types.
