@@ -16,24 +16,29 @@ An initial analysis of the merged datasets revealed the following:
 While the above analysis revealed discrepancies among rideshare revenue according to city type, to better understand the spending trends among rideshare users within different city types over time, further analysis was necessary. To visualize the spending trends among rideshare users within different city types (urban, suburban, rural) by week, a summary DataFrame of the ride-sharing data by city type was created that showed the total rideshare fares for each city type by week.
 
 ## Results
-Using the merged dataframe of the "city_data.csv" and "ride_data.csv" datasets, the following rideshare data was derived:
+Using the merged dataframe of the "city_data.csv" and "ride_data.csv" datasets, the following rideshare findings were collected:
 
+### Ride Data by City Type
 * Total Urban Rides: 1,625
 * Total Suburban Rides: 625
 * Total Rural Rides: 125
 
+### Driver Data by City Type
 * Total Urban Drivers: 2,405
 * Total Suburban Drivers: 490
 * Total Rural Drivers: 78
 
+### Fare Totals by City Type
 * Total Urban Fares: $39,854.38
 * Total Suburban Fares: $19,356.33
 * Total Rural Fares: $4,327.93 
 
+### Rider Fare Averages by City Type
 * Average Fare Per Urban Ride: $24.53
 * Average Fare Per Suburban Ride: $30.97
 * Average Fare Per Rural Ride: $34.62
 
+### Driver Fare Averages by City Type
 * Average Fare Per Urban Driver: $16.57
 * Average Fare Per Suburban Driver: $39.50
 * Average Fare Per Rural Driver: $55.49
